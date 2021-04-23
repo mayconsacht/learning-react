@@ -1,6 +1,7 @@
 import Components from './Basic/ExerComponents/Components';
 import ExerJXS from './Basic/ExerJXS';
 import ExerJXSArray from './Basic/ExerJXSArray';
+import ExerUseContext from './Hooks/UseContext/ExerUseContext';
 import ExerUseEffect from './Hooks/UseEffect/ExerUseEffect';
 import ExerUseState from './Hooks/UseState/ExerUseState';
 
@@ -30,6 +31,11 @@ const App = () => {
       <div style={{ marginTop: '50px' }}>
         <h1>Exercise useEffect</h1>
         <ExerUseEffect />
+      </div>
+
+      <div style={{ marginTop: '50px' }}>
+        <h1>Exercise useContext</h1>
+        <ExerUseContext />
       </div>
     </>
   );
