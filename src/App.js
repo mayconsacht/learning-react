@@ -1,6 +1,7 @@
 import Components from './Basic/ExerComponents/Components';
 import ExerJXS from './Basic/ExerJXS';
 import ExerJXSArray from './Basic/ExerJXSArray';
+import UserForm from './Forms/Input/UserForm';
 import ExerUseContext from './Hooks/UseContext/ExerUseContext';
 import ExerUseEffect from './Hooks/UseEffect/ExerUseEffect';
 import ExerUseState from './Hooks/UseState/ExerUseState';
@@ -36,6 +37,11 @@ const App = () => {
       <div style={{ marginTop: '50px' }}>
         <h1>Exercise useContext</h1>
         <ExerUseContext />
+      </div>
+
+      <div style={{ marginTop: '50px' }}>
+        <h1>Exercise Inputs</h1>
+        <UserForm />
       </div>
     </>
   );

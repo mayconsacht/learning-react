@@ -54,7 +54,9 @@ label {
   margin-bottom: 0.25rem;
 }
 
-input,
+input[type='text'],
+input[type='password'],
+input[type='email'],
 textarea {
   display: block;
   border: 1px solid #ccc;
@@ -63,14 +65,18 @@ textarea {
   border-radius: var(--radius);
   background: #eee;
   transition: 0.2s;
+  margin-bottom: 1rem;
 }
 
-input:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
 textarea:focus {
   outline: none;
   border-color: var(--color);
   background: white;
   box-shadow: 0 0 0 3px var(--color-light);
+  margin-bottom: 1rem;
 }
 
 button {
